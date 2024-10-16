@@ -1,0 +1,60 @@
+/* Write your CSS here */
+* {
+  font-family: Bree Serif;
+  color: #ffffff;
+}
+
+.latest-match-bg-container {
+  background-color: #1e293b;
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.logo-and-details-container {
+  display: flex;
+}
+.competing-team-logo {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+
+.separator {
+  border: 1px solid #ffffff;
+}
+
+.opposite-team {
+  font-size: 28px;
+  width: 250px;
+  font-weight: 400;
+}
+
+.second-part {
+  font-size: 12px;
+  font-weight: 400;
+}
+.second-part-titles {
+  font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-bg-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .separator {
+    display: none;
+  }
+  .logo-and-details-container {
+    width: 70%;
+  }
+  .competing-team-logo {
+    width: 200px;
+    height: 200px;
+  }
+  .innings-man-of-match-umpires-container {
+    text-align: right;
+  }
+}
